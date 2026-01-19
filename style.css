@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(227, 228, 242);
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#addPoll {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    gap: 4px;
+}
+
+#addPoll button {
+    border-radius: 8px;
+    border: 1px solid rgb(43, 41, 32);
+}
+
+#addInput {
+    width: 30%;
+    padding-left: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(43, 41, 32);
+}
+
+#polls {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    margin: auto;
+    gap: 12px;
+}
+
+.poll {
+    display: flex;
+    border: 1px solid rgb(54, 62, 73);
+    border-radius: 6px;
+    padding: 11px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pollPart1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.pollPart2 {
+    display: flex;
+    gap: 4px;
+}
+
+.actionButton {
+    /* background-color: green; */
+    border-radius: 7.5px;
+    padding: 4px;
+}
